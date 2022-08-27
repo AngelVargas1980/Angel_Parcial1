@@ -10,7 +10,7 @@ package Clases;
  */
 public class LibroController {
     
-     Libro[] tablaLibro;
+    Libro[] tablaLibro;
     int indiceArray;
 
     /*es un metodo constructor*/
@@ -19,15 +19,14 @@ public class LibroController {
         this.indiceArray=0;
     }
     
-     public void guardarAlumno(Libro libro){
+     public void guardarLibro(Libro libro){
         this.tablaLibro[this.indiceArray]=libro;  
         this.indiceArray=this.indiceArray+1;
     }
     
-    public Libro[] getAlumnos(){
+    public Libro[] getLibros(){
         return this.tablaLibro;
     }
     
-    
-    
 }
+

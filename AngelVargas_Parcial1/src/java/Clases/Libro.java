@@ -28,7 +28,7 @@ public class Libro {
     
     /*Esto lo agruegue porque nose porque, pero es un metodo constructor*/
     public Libro(){
-        this.nombrelibro="Alumno de mi ejemplo";
+        this.nombrelibro="Libro de mi ejemplo";
     }
 
     public String getCodigo() {
